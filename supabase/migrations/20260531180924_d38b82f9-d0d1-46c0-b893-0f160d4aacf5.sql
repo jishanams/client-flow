@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.update_invoice_on_payment() FROM PUBLIC, anon, authenticated;

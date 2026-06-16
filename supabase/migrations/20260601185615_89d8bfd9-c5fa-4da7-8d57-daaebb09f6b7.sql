@@ -1,0 +1,1 @@
+ALTER TABLE public.ledger_entries ADD COLUMN IF NOT EXISTS addons jsonb NOT NULL DEFAULT '[]'::jsonb;
